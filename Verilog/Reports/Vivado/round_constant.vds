@@ -1,0 +1,225 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Thu Apr 27 15:30:24 2023
+# Process ID: 9160
+# Current directory: D:/Mes Affairs/Lightweight Crypto/Assignments/Term Paper - ASCON/ASCON-VERILOG/ASCON-VERILOG.runs/synth_1
+# Command line: vivado.exe -log round_constant.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source round_constant.tcl
+# Log file: D:/Mes Affairs/Lightweight Crypto/Assignments/Term Paper - ASCON/ASCON-VERILOG/ASCON-VERILOG.runs/synth_1/round_constant.vds
+# Journal file: D:/Mes Affairs/Lightweight Crypto/Assignments/Term Paper - ASCON/ASCON-VERILOG/ASCON-VERILOG.runs/synth_1\vivado.jou
+# Running On: Onyx, OS: Windows, CPU Frequency: 2419 MHz, CPU Physical cores: 4, Host memory: 16934 MB
+#-----------------------------------------------------------
+source round_constant.tcl -notrace
+create_project: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 393.277 ; gain = 63.164
+Command: read_checkpoint -auto_incremental -incremental {D:/Mes Affairs/Lightweight Crypto/Assignments/Term Paper - ASCON/ASCON-VERILOG/ASCON-VERILOG.srcs/utils_1/imports/synth_1/round_constant.dcp}
+INFO: [Vivado 12-5825] Read reference checkpoint from D:/Mes Affairs/Lightweight Crypto/Assignments/Term Paper - ASCON/ASCON-VERILOG/ASCON-VERILOG.srcs/utils_1/imports/synth_1/round_constant.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top round_constant -part xc7z020clg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 6452
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [D:/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+WARNING: [Synth 8-10929] literal value 'hf0 truncated to fit in 4 bits [D:/Mes Affairs/Lightweight Crypto/Assignments/Term Paper - ASCON/ASCON-VERILOG/ASCON-VERILOG.srcs/sources_1/new/round_constant.v:50]
+WARNING: [Synth 8-10929] literal value 'hf0 truncated to fit in 4 bits [D:/Mes Affairs/Lightweight Crypto/Assignments/Term Paper - ASCON/ASCON-VERILOG/ASCON-VERILOG.srcs/sources_1/new/round_constant.v:65]
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 834.918 ; gain = 410.504
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'round_constant' [D:/Mes Affairs/Lightweight Crypto/Assignments/Term Paper - ASCON/ASCON-VERILOG/ASCON-VERILOG.srcs/sources_1/new/round_constant.v:22]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [D:/Mes Affairs/Lightweight Crypto/Assignments/Term Paper - ASCON/ASCON-VERILOG/ASCON-VERILOG.srcs/sources_1/new/round_constant.v:65]
+INFO: [Synth 8-6155] done synthesizing module 'round_constant' (0#1) [D:/Mes Affairs/Lightweight Crypto/Assignments/Term Paper - ASCON/ASCON-VERILOG/ASCON-VERILOG.srcs/sources_1/new/round_constant.v:22]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 924.477 ; gain = 500.062
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 924.477 ; gain = 500.062
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 924.477 ; gain = 500.062
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+---------------------------------------------------------------------------------
+Start Preparing Guide Design
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-6895] The reference checkpoint D:/Mes Affairs/Lightweight Crypto/Assignments/Term Paper - ASCON/ASCON-VERILOG/ASCON-VERILOG.srcs/utils_1/imports/synth_1/round_constant.dcp is not suitable for use with incremental synthesis for this design. Please regenerate the checkpoint for this design with -incremental_synth switch in the same Vivado session that synth_design has been run. Synthesis will continue with the default flow
+---------------------------------------------------------------------------------
+Finished Doing Graph Differ : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 924.477 ; gain = 500.062
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Preparing Guide Design : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 924.477 ; gain = 500.062
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 924.477 ; gain = 500.062
+---------------------------------------------------------------------------------
+
+
+Incremental Synthesis Report Summary:
+
+1. Incremental synthesis run: no
+
+   Reason for not running incremental synthesis : 
+
+
+INFO: [Synth 8-7130] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input    8 Bit       Adders := 1     
+	   2 Input    5 Bit       Adders := 1     
+	   2 Input    4 Bit       Adders := 2     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input    1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:23 . Memory (MB): peak = 1142.395 ; gain = 717.980
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:23 . Memory (MB): peak = 1142.395 ; gain = 717.980
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:09 ; elapsed = 00:00:23 . Memory (MB): peak = 1142.395 ; gain = 717.980
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:13 ; elapsed = 00:00:28 . Memory (MB): peak = 1142.395 ; gain = 717.980
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:13 ; elapsed = 00:00:28 . Memory (MB): peak = 1142.395 ; gain = 717.980
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:13 ; elapsed = 00:00:28 . Memory (MB): peak = 1142.395 ; gain = 717.980
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:13 ; elapsed = 00:00:28 . Memory (MB): peak = 1142.395 ; gain = 717.980
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:13 ; elapsed = 00:00:28 . Memory (MB): peak = 1142.395 ; gain = 717.980
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:13 ; elapsed = 00:00:28 . Memory (MB): peak = 1142.395 ; gain = 717.980
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     2|
+|3     |LUT1   |     9|
+|4     |LUT2   |     5|
+|5     |LUT3   |     3|
+|6     |LUT4   |     6|
+|7     |LUT5   |     1|
+|8     |LUT6   |     7|
+|9     |FDRE   |    12|
+|10    |FDSE   |     2|
+|11    |IBUF   |     7|
+|12    |OBUF   |    10|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |    65|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:13 ; elapsed = 00:00:28 . Memory (MB): peak = 1142.395 ; gain = 717.980
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 1 critical warnings and 4 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:28 . Memory (MB): peak = 1142.395 ; gain = 717.980
+Synthesis Optimization Complete : Time (s): cpu = 00:00:13 ; elapsed = 00:00:28 . Memory (MB): peak = 1142.395 ; gain = 717.980
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1150.227 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1251.602 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: 793c1cb8
+INFO: [Common 17-83] Releasing license: Synthesis
+18 Infos, 4 Warnings, 1 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:15 ; elapsed = 00:00:30 . Memory (MB): peak = 1251.602 ; gain = 833.477
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+INFO: [Common 17-1381] The checkpoint 'D:/Mes Affairs/Lightweight Crypto/Assignments/Term Paper - ASCON/ASCON-VERILOG/ASCON-VERILOG.runs/synth_1/round_constant.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file round_constant_utilization_synth.rpt -pb round_constant_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Apr 27 15:31:08 2023...

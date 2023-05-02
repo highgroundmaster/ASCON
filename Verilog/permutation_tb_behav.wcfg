@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="permutation_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="permutation_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="188.154 ns"></ZoomStartTime>
+      <ZoomEndTime time="340.555 ns"></ZoomEndTime>
+      <Cursor1Time time="900.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="173"></NameColumnWidth>
+      <ValueColumnWidth column_width="215"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="12" />
+   <wvobject fp_name="/permutation_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/permutation_tb/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/permutation_tb/permut/r_constant/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/permutation_tb/permut/r_constant/init" type="logic">
+      <obj_property name="ElementShortName">init</obj_property>
+      <obj_property name="ObjectShortName">init</obj_property>
+   </wvobject>
+   <wvobject fp_name="/permutation_tb/permut/r_con" type="array">
+      <obj_property name="ElementShortName">r_con[7:0]</obj_property>
+      <obj_property name="ObjectShortName">r_con[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/permutation_tb/rounds" type="array">
+      <obj_property name="ElementShortName">rounds[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rounds[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/permutation_tb/in" type="array">
+      <obj_property name="ElementShortName">in[319:0]</obj_property>
+      <obj_property name="ObjectShortName">in[319:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/permutation_tb/out" type="array">
+      <obj_property name="ElementShortName">out[319:0]</obj_property>
+      <obj_property name="ObjectShortName">out[319:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="group109" type="group">
+      <obj_property name="label">Select Input</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/permutation_tb/permut/sel_input/in_1" type="array">
+         <obj_property name="ElementShortName">in_1[319:0]</obj_property>
+         <obj_property name="ObjectShortName">in_1[319:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/permutation_tb/permut/sel_input/in_0" type="array">
+         <obj_property name="ElementShortName">in_0[319:0]</obj_property>
+         <obj_property name="ObjectShortName">in_0[319:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/permutation_tb/permut/sel_input/out" type="array">
+         <obj_property name="ElementShortName">out[319:0]</obj_property>
+         <obj_property name="ObjectShortName">out[319:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group111" type="group">
+      <obj_property name="label">S-Layer</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/permutation_tb/permut/s_layer/y" type="array">
+         <obj_property name="ElementShortName">y[319:0]</obj_property>
+         <obj_property name="ObjectShortName">y[319:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/permutation_tb/permut/s_layer/x" type="array">
+         <obj_property name="ElementShortName">x[319:0]</obj_property>
+         <obj_property name="ObjectShortName">x[319:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group114" type="group">
+      <obj_property name="label">L-Layer</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/permutation_tb/permut/l_layer/y" type="array">
+         <obj_property name="ElementShortName">y[319:0]</obj_property>
+         <obj_property name="ObjectShortName">y[319:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/permutation_tb/permut/l_layer/x" type="array">
+         <obj_property name="ElementShortName">x[319:0]</obj_property>
+         <obj_property name="ObjectShortName">x[319:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group119" type="group">
+      <obj_property name="label">Select Output</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/permutation_tb/permut/store_out/D" type="array">
+         <obj_property name="ElementShortName">D[319:0]</obj_property>
+         <obj_property name="ObjectShortName">D[319:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/permutation_tb/permut/store_out/Q" type="array">
+         <obj_property name="ElementShortName">Q[319:0]</obj_property>
+         <obj_property name="ObjectShortName">Q[319:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
