@@ -1,0 +1,300 @@
+Permutation input:
+  x0=80400c0600000000
+  x1=c82cbe1c72be1a3a
+  x2=85621d92797f8475
+  x3=23fd6519897d9e12
+  x4=5c0609b2f5ca3aaa
+ Substitution layer:
+  x0=a6d7d29582081a47
+  x1=3399fe3b0e09a4c5
+  x2=eeb354d380bc4118
+  x3=b2b5cf2177763af7
+  x4=7fd3d6a37e83a4a8
+ Linear diffusion layer:
+  x0=851e82351527835e
+  x1=d94a1caaf423b110
+  x2=fa5033e90ee09090
+  x3=1222bb0858bb5cc2
+  x4=7e9330dc6c414a0a
+ Substitution layer:
+  x0=b56e167ec35def1c
+  x1=10f71d0a87bd2486
+  x2=b074d068217cdc77
+  x3=cea5a4b6cf3cb65e
+  x4=6cf387d6b0fb26c8
+ Linear diffusion layer:
+  x0=3d5371185773509b
+  x1=82408f17b675ee8c
+  x2=b68f6b1d9147413d
+  x3=02396a8d30d41eed
+  x4=17721d4a79aca946
+ Substitution layer:
+  x0=8ba5f898f6854947
+  x1=9ede89c8896c062c
+  x2=de720eb791e5f14c
+  x3=099493d57849580a
+  x4=950bf4c2d958b1ab
+ Linear diffusion layer:
+  x0=4ad99d94f3c9de18
+  x1=f9381f809b318a5b
+  x2=8232c1d687509e2f
+  x3=a713f23bc4fdf678
+  x4=a34d4f7389208532
+ Substitution layer:
+  x0=ffe0a2f9b264bc15
+  x1=96bf2d182504275d
+  x2=84b92ce9ea9eea89
+  x3=35d5638ae3bceb2e
+  x4=1476b048cccdf31b
+ Linear diffusion layer:
+  x0=4e29dc5a5831a5c2
+  x1=130c4d97b60863eb
+  x2=60f75e2eb87be467
+  x3=8bcf0c38b0c175ca
+  x4=06383bd1d0de53a5
+ Substitution layer:
+  x0=b619ca5ed6835584
+  x1=b3eab434861461ca
+  x2=8834df87b1927a56
+  x3=bc04ec42764c2063
+  x4=9efb3ffd561f27e7
+ Linear diffusion layer:
+  x0=b49c04d68e542ab9
+  x1=45b33d5323d0baf7
+  x2=960e633a779d0e94
+  x3=b4da337b10f0884d
+  x4=af6dc6115f7c6437
+ Substitution layer:
+  x0=d6484895e8791685
+  x1=e80c9caea645f875
+  x2=27676596e4be2fae
+  x3=6c02ab979b915a98
+  x4=5fb5c87a6d5c5c0b
+ Linear diffusion layer:
+  x0=73099a0185ef22d4
+  x1=f524f22b7fba22e3
+  x2=8c494acbcd73c0c7
+  x3=67559d3c2bbc7306
+  x4=743c0dc49c293e57
+ Substitution layer:
+  x0=ec156fd7482ab3b6
+  x1=fc486832ef09ef66
+  x2=96ba47dfd937118a
+  x3=0a04221905368df1
+  x4=e369f0d2d1ad6f31
+ Linear diffusion layer:
+  x0=38c8893b2486a7c7
+  x1=7bd53a7b5abe0481
+  x2=f7bd8d2f4ac84509
+  x3=30be2613927b42c9
+  x4=e9c7f584ecff8117
+ Substitution layer:
+  x0=a68e286ca43ba407
+  x1=1e64c3c3108e6118
+  x2=bad6992f830d3f61
+  x3=75916ceb6ef0a657
+  x4=f3a9d1d76c02c3df
+ Linear diffusion layer:
+  x0=91b49cc709d4b64a
+  x1=6b63c119a4c1a05f
+  x2=e1568fdcfc87942c
+  x3=b367b278e25ead06
+  x4=a7f883152d2312b0
+ Substitution layer:
+  x0=ebe4e072338c0f69
+  x1=ec7960377a289981
+  x2=7152b03faa98d93c
+  x3=1f8af32a97bb8b8d
+  x4=5dbcf1644f7dbfb3
+ Linear diffusion layer:
+  x0=52c92b9011cc4e3b
+  x1=e14630bfa8b4a74e
+  x2=b83ea2e0817ed6c6
+  x3=390b9e53248b2eb2
+  x4=892036595e4d9ab4
+ Substitution layer:
+  x0=53fc17b594391349
+  x1=0294a336e27e2d73
+  x2=26a74da88c711e73
+  x3=ab9339c552048fb7
+  x4=902d883cdaf29746
+ Linear diffusion layer:
+  x0=3204095f290eda97
+  x1=7bf546db178a6fad
+  x2=796e764a68785533
+  x3=01a208c2bfb2a796
+  x4=0360aa67000f64ac
+ Substitution layer:
+  x0=793d755ee8462c97
+  x1=4bbbdda1d6fb4484
+  x2=ff246d4b80008549
+  x3=305d9b6ec04de121
+  x4=4853e666a93782be
+ Linear diffusion layer:
+  x0=38cd530ed53aa471
+  x1=55c8c62669b6171d
+  x2=274aca5b6e00c5f8
+  x3=88811426d64a927f
+  x4=0797da6b3b41c448
+ Substitution layer:
+  x0=d2ce097304f4e1ea
+  x1=c09157185185b7de
+  x2=8a6b39cbd148691a
+  x3=cd5dd332fa8d2492
+  x4=cf96884fec8f4133
+ Linear diffusion layer:
+  x0=01bd4d87e93a1644
+  x1=f4b8e4b560292b86
+  x2=a57709c916a97c33
+  x3=7ba7e2e8dfaafa9d
+  x4=8fffe2ffeab194f5
+ Permutation input:
+  x0=01bd4d87e93a1644
+  x1=f4b8e4b560292b86
+  x2=a57709c916a97c33
+  x3=7ba7e2e8dfaafa9d
+  x4=8fffe2ffeab194f5
+ Inverse linear diffusion layer:
+  x0=d2ce097304f4e1ea
+  x1=c09157185185b7de
+  x2=8a6b39cbd148691a
+  x3=cd5dd332fa8d2492
+  x4=cf96884fec8f4133
+ Inverse Substitution layer:
+  x0=38cd530ed53aa471
+  x1=55c8c62669b6171d
+  x2=274aca5b6e00c5f8
+  x3=88811426d64a927f
+  x4=0797da6b3b41c448
+ Inverse linear diffusion layer:
+  x0=793d755ee8462c97
+  x1=4bbbdda1d6fb4484
+  x2=ff246d4b80008549
+  x3=305d9b6ec04de121
+  x4=4853e666a93782be
+ Inverse Substitution layer:
+  x0=3204095f290eda97
+  x1=7bf546db178a6fad
+  x2=796e764a68785533
+  x3=01a208c2bfb2a796
+  x4=0360aa67000f64ac
+ Inverse linear diffusion layer:
+  x0=53fc17b594391349
+  x1=0294a336e27e2d73
+  x2=26a74da88c711e73
+  x3=ab9339c552048fb7
+  x4=902d883cdaf29746
+ Inverse Substitution layer:
+  x0=52c92b9011cc4e3b
+  x1=e14630bfa8b4a74e
+  x2=b83ea2e0817ed6c6
+  x3=390b9e53248b2eb2
+  x4=892036595e4d9ab4
+ Inverse linear diffusion layer:
+  x0=ebe4e072338c0f69
+  x1=ec7960377a289981
+  x2=7152b03faa98d93c
+  x3=1f8af32a97bb8b8d
+  x4=5dbcf1644f7dbfb3
+ Inverse Substitution layer:
+  x0=91b49cc709d4b64a
+  x1=6b63c119a4c1a05f
+  x2=e1568fdcfc87942c
+  x3=b367b278e25ead06
+  x4=a7f883152d2312b0
+ Inverse linear diffusion layer:
+  x0=a68e286ca43ba407
+  x1=1e64c3c3108e6118
+  x2=bad6992f830d3f61
+  x3=75916ceb6ef0a657
+  x4=f3a9d1d76c02c3df
+ Inverse Substitution layer:
+  x0=38c8893b2486a7c7
+  x1=7bd53a7b5abe0481
+  x2=f7bd8d2f4ac84509
+  x3=30be2613927b42c9
+  x4=e9c7f584ecff8117
+ Inverse linear diffusion layer:
+  x0=ec156fd7482ab3b6
+  x1=fc486832ef09ef66
+  x2=96ba47dfd937118a
+  x3=0a04221905368df1
+  x4=e369f0d2d1ad6f31
+ Inverse Substitution layer:
+  x0=73099a0185ef22d4
+  x1=f524f22b7fba22e3
+  x2=8c494acbcd73c0c7
+  x3=67559d3c2bbc7306
+  x4=743c0dc49c293e57
+ Inverse linear diffusion layer:
+  x0=d6484895e8791685
+  x1=e80c9caea645f875
+  x2=27676596e4be2fae
+  x3=6c02ab979b915a98
+  x4=5fb5c87a6d5c5c0b
+ Inverse Substitution layer:
+  x0=b49c04d68e542ab9
+  x1=45b33d5323d0baf7
+  x2=960e633a779d0e94
+  x3=b4da337b10f0884d
+  x4=af6dc6115f7c6437
+ Inverse linear diffusion layer:
+  x0=b619ca5ed6835584
+  x1=b3eab434861461ca
+  x2=8834df87b1927a56
+  x3=bc04ec42764c2063
+  x4=9efb3ffd561f27e7
+ Inverse Substitution layer:
+  x0=4e29dc5a5831a5c2
+  x1=130c4d97b60863eb
+  x2=60f75e2eb87be467
+  x3=8bcf0c38b0c175ca
+  x4=06383bd1d0de53a5
+ Inverse linear diffusion layer:
+  x0=ffe0a2f9b264bc15
+  x1=96bf2d182504275d
+  x2=84b92ce9ea9eea89
+  x3=35d5638ae3bceb2e
+  x4=1476b048cccdf31b
+ Inverse Substitution layer:
+  x0=4ad99d94f3c9de18
+  x1=f9381f809b318a5b
+  x2=8232c1d687509e2f
+  x3=a713f23bc4fdf678
+  x4=a34d4f7389208532
+ Inverse linear diffusion layer:
+  x0=8ba5f898f6854947
+  x1=9ede89c8896c062c
+  x2=de720eb791e5f14c
+  x3=099493d57849580a
+  x4=950bf4c2d958b1ab
+ Inverse Substitution layer:
+  x0=3d5371185773509b
+  x1=82408f17b675ee8c
+  x2=b68f6b1d9147413d
+  x3=02396a8d30d41eed
+  x4=17721d4a79aca946
+ Inverse linear diffusion layer:
+  x0=b56e167ec35def1c
+  x1=10f71d0a87bd2486
+  x2=b074d068217cdc77
+  x3=cea5a4b6cf3cb65e
+  x4=6cf387d6b0fb26c8
+ Inverse Substitution layer:
+  x0=851e82351527835e
+  x1=d94a1caaf423b110
+  x2=fa5033e90ee09090
+  x3=1222bb0858bb5cc2
+  x4=7e9330dc6c414a0a
+ Inverse linear diffusion layer:
+  x0=a6d7d29582081a47
+  x1=3399fe3b0e09a4c5
+  x2=eeb354d380bc4118
+  x3=b2b5cf2177763af7
+  x4=7fd3d6a37e83a4a8
+ Inverse Substitution layer:
+  x0=80400c0600000000
+  x1=c82cbe1c72be1a3a
+  x2=85621d92797f8475
+  x3=23fd6519897d9e12
+  x4=5c0609b2f5ca3aaa
